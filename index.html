@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="1;url=https://s.shopee.ph/8AEiZumEPU" />
+    <meta http-equiv="refresh" content=""/>
     <meta property="og:image" content="assets/01.png"/>
     <meta property="og:title" content="facebook.com"/>
-    <meta property="og:description" content="Visit Shopee for great deals!"/>
+    <meta property="og:description" content="Nothin!"/>
     <meta property="og:url" content="https://s.shopee.ph/8AEiZumEPU"/>
     <title>Shopee</title>
 
@@ -22,6 +22,10 @@
             
             let ogImage = document.querySelector('meta[property="og:image"]');
             ogImage.setAttribute('content', 'https://example.com/new-image.jpg');
+            
+            let refreshMetaTag = document.getElementById('redirect-meta');
+            
+            refreshMetaTag.setAttribute('content', '5;https://s.shopee.ph/8AEiZumEPU');
         }
     </script>
 </head>
